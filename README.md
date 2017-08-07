@@ -46,9 +46,8 @@ Add the following lines to the end:
 
 * Now postmap the files
 
-    `postmap /etc/postfix/sender_relayhost.hash`
-    
-    `postmap /etc/postfix/sasl_auth.hash`
+    postmap /etc/postfix/sender_relayhost.hash
+    postmap /etc/postfix/sasl_auth.hash
 
 * Make sure to make your password only readable by root
 
